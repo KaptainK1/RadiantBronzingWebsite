@@ -1,0 +1,4 @@
+const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec ipsum ac magna venenatis pretium. Vivamus consequat diam euismod elit luctus feugiat. Fusce ac ipsum ac neque sagittis dictum. Suspendisse vulputate sodales gravida. Vivamus non lorem vestibulum, sollicitudin diam in, hendrerit justo. Donec posuere ligula mauris, ac pharetra tortor sagittis sit amet. Aenean at velit semper, tincidunt orci eu, lobortis enim. Etiam semper libero ligula, in ultricies neque aliquam vitae. Phasellus id libero non enim commodo molestie finibus sed leo. Morbi placerat ligula purus, ac mattis elit vulputate ornare. Suspendisse non laoreet lectus. Quisque purus lacus, maximus nec ex non, rutrum porta quam. Ut ut tortor metus. Aenean sit amet odio dignissim, pharetra dolor sit amet, sagittis felis. Sed eget faucibus velit, id maximus augue.\n" +
+    "\n";
+
+export default lorem;

@@ -1,0 +1,158 @@
+
+/*#EBD0B4*/
+/*#BF884E*/
+
+/*#230c0f DarkSienna*/
+/*#341b14 Brown*/
+/*#f9fad1 LightYellow*/
+/*#407d87 Teal*/
+/*#ff9b21 Orange*/
+/*#ee6802 BloodOrange*/
+
+.input-error  {
+}
+
+
+.input-error:focus {
+  outline: none !important;
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}
+
+.about-section{
+
+}
+
+.about-section p {
+  position: relative;
+  z-index: 2;
+}
+
+.shop-section {
+
+}
+
+.pricing-section {
+
+  font-weight: normal;
+}
+
+.content-section {
+  min-width: 100%;
+  min-height: 300px;
+}
+
+.footer-section {
+  margin-top: 50px;
+}
+
+.footer-section a{
+  padding: 15px;
+  color: #ff9b21;
+}
+
+.footer-section a:hover {
+  color: #ee6802;
+}
+
+.footer-contact {
+  text-align: left;
+}
+
+.footer-contact p {
+  color: black;
+  margin-bottom: 4px;
+  padding-left: 4px;
+}
+
+.footer-creator {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+hr {
+  margin: 0 45% 0 45%;
+  border-color: black;
+  background-color: transparent;
+  border-bottom-style: dotted;
+  border-width: 15px;
+}
+
+.contact-section {
+
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-size: 1.1em;
+  background-color: #f6f5f0;
+  color: #3e5336;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #ff9b21;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+.main-heading {
+  color: #407d87;
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.section-text {
+  padding: 50px;
+}
+
+.btn-outline-primary {
+  background-color: #f6f5f0;
+  color: #ee6802;
+  border-color: #ee6802;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ee6802;
+  color: #f6f5f0;
+  border-color: #f6f5f0;
+}
+
+.custom-navbar {
+  background-color: #ee6802;
+}
+
+.navbar-custom .nav-link {
+  color: #f9fad1;
+}
+
+.nav-link:hover {
+  color: #407d87;
+}
+
+.calendar-form {
+  border-color: #ee6802;
+  border-style: dashed;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.main-heading-img {
+  display: inline;
+  position: absolute;
+  left: 80%;
+  z-index: 2;
+  top: -20px;
+}
+

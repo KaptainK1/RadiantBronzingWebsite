@@ -1,0 +1,30 @@
+
+///*#EBD0B4*/
+///*#BF884E*/
+//
+///*#230c0f DarkSienna*/
+///*#341b14 Brown*/
+///*#f9fad1 LightYellow*/
+///*#407d87 Teal*/
+///*#ff9b21 Orange*/
+///*#ee6802 BloodOrange*/
+
+$bloodOrange: #ee6802;
+$darkSienna: #230c0f;
+
+  /* make the customizations for bootstrap default themes */
+$theme-colors: (
+        //add the theme navBarBG to the default bootstrap themes
+        "navBarBG": $bloodOrange
+);
+
+//override bootstrap scss dark variants for the navbar color (link) and the toggler border
+$navbar-dark-color: $darkSienna;
+$navbar-dark-toggler-border-color: $darkSienna;
+
+//$table-variants: (
+//  "navBarLink": $darkSienna
+//);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

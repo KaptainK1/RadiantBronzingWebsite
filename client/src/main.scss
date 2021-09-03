@@ -1,0 +1,186 @@
+
+//import custom values from custom.scss which contains overrides for Boostrap library
+@import "custom";
+
+///*#EBD0B4*/
+///*#BF884E*/
+
+//Main Color Palette
+$darkSienna: #230c0f;
+//$brown: #341b14;
+$lightYellow: #f9fad1;
+$teal: #407d87;
+$orange: #ff9b21;
+$bloodOrange: #ee6802;
+$offWhite: #f6f5f0;
+
+.input-error  {
+}
+
+.input-error:focus {
+  outline: none !important;
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}
+
+.about-section{
+
+}
+
+.about-section p {
+  position: relative;
+  z-index: 2;
+}
+
+.shop-section {
+
+}
+
+.pricing-section {
+
+  font-weight: normal;
+}
+
+.content-section {
+  min-width: 100%;
+  min-height: 300px;
+}
+
+.footer-section {
+  margin-top: 50px;
+}
+
+.footer-section a{
+  padding: 15px;
+  color: $orange;
+}
+
+.footer-section a:hover {
+  color: $bloodOrange;
+}
+
+.footer-contact {
+  text-align: left;
+}
+
+.footer-contact p {
+  color: $darkSienna;
+  margin-bottom: 4px;
+  padding-left: 4px;
+}
+
+.footer-creator {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+hr {
+  margin: 0 45% 0 45%;
+  border-color: $darkSienna;
+  background-color: transparent;
+  border-bottom-style: dotted;
+  border-width: 15px;
+}
+
+.contact-section {
+
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-size: 1.1em;
+  background-color: $offWhite;
+  color: #3e5336;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: $orange;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+.main-heading {
+  color: $teal;
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 40px 0 40px 0;
+}
+
+.section-text {
+  padding: 50px;
+}
+
+.btn-outline-primary {
+  background-color: $offWhite;
+  color: $bloodOrange;
+  border-color: $bloodOrange;
+}
+
+.btn-outline-primary:hover {
+  background-color: $bloodOrange;
+  color: $offWhite;
+  border-color: $offWhite;
+}
+
+.custom-navbar {
+  background-color: $bloodOrange;
+}
+
+.navbar-custom .nav-link {
+  color: $lightYellow;
+}
+
+.nav-link:hover {
+  color: $teal;
+}
+
+.calendar-form {
+  border-color: $bloodOrange;
+  border-style: dashed;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.main-heading-img {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+
+//.main-heading-img {
+//  display: inline;
+//  position: absolute;
+//  left: 80%;
+//  z-index: 2;
+//  top: -20px;
+//}
+
+#date-picker-section {
+  margin: 50px 0 50px 0;
+  background: #ff9b21;
+}
+
+.date-picker-section-component {
+  padding: 30px;
+}
+
+.book-appointment-section {
+  margin: 20px 0 20px 0;
+
+}
+
+#contact-us-cta > * {
+  margin: 20px 20px 20px 0;
+}

@@ -1,0 +1,18 @@
+.button {
+    font: inherit;
+    border: 1px solid #230c0f;
+    background: #230c0f;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: #ff9b21;
+    border-color: #ff9b21;
+}
+
+.button:focus {
+    outline: none;
+}
