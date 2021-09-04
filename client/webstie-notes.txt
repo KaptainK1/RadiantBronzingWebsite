@@ -1,1 +1,46 @@
 Radiant Bronzing Boutique LLC Website Notes
+
+
+/home/rbbadmin/sites/radiant-bronzing
+
+server {
+  listen 80;
+
+  location / {
+      root /home/rbbadmin/sites/radiant-bronzing/client/build
+      index index.html index.htm
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection 'upgrade';
+      proxy_set_header Host $host;
+      proxy_cache_bypass $http_upgrade;
+      try_files $uri $uri/ /index.html;
+  }
+  
+  
+    location /api {
+      proxy_pass http://localhost:3001;
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection 'upgrade';
+      proxy_set_header Host $host;
+      proxy_cache_bypass $http_upgrade;
+  }
+}
+
+----------------------
+  UFW (FIREWALL)
+----------------------
+"
+
+# allow ssh connections through firewall
+sudo ufw allow OpenSSH
+
+# allow http & https through firewall
+sudo ufw allow 'Nginx Full'
+
+# enable firewall
+sudo ufw --force enable
+
+# set pm2 to start automatically on system startup
+sudo pm2 startup systemd
