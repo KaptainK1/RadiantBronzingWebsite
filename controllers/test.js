@@ -1,7 +1,7 @@
 exports.test = (req, res) => {
-    // res.json({
-    //     "welcome":["Thank you !"]
-    // });
-    res.sendFile('./test.html');
+    res.json({
+        "welcome":["Thank you !"]
+    });
     console.log("hello from test.js controller");
+    console.log(res);
 }
