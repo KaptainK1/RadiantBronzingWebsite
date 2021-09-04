@@ -20,6 +20,8 @@ class Construction extends Component {
         if (response.status !== 200) {
             throw Error(body.message)
         }
+         console.log(response);
+        console.log(response.json());
          console.log(body);
         return body;
 

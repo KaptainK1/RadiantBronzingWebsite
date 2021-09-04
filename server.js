@@ -1,14 +1,15 @@
 const express = require('express');
 const path = require('path');
 const cors = require("cors");
+const bodyParser = require('body-parser');
 // const http = require("http");
 require('dotenv').config();
 const app = express();
 
-app.use(cors({origin : '*'}));
-// app.get('/', (req, res) => {
-//     res.send('Hi there');
-// })
+const PORT = process.env.PORT || 3000;
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(cors({origin : '*'}));
 // Have Node serve the files for our built React app
 app.use(express.static(path.resolve(__dirname, './client/build')));
 
@@ -24,7 +25,7 @@ app.get('*', (req, res) => {
         console.log('error reaching site');
 });
 
-const PORT = process.env.PORT || 3000;
+
 
 // var httpServer = http.createServer(app);
 
